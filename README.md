@@ -1,4 +1,4 @@
-# YG Digital Store — Demo
+# YG Digital Store | Demo
 
 A lightweight storefront concept created by **Zena Digital** for **YG Digital Store**.
 
@@ -33,3 +33,7 @@ npx wrangler deploy
 
 Demo creator: Zena Digital  
 Portfolio: https://zena.zenu.workers.dev/
+
+## Deployment note
+
+Cloudflare Workers Builds should use an empty build command and `npx wrangler deploy` as the deploy command. Static assets are configured from `./public` so dependencies in `node_modules` are not uploaded as website assets.
