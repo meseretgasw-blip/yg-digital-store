@@ -1,16 +1,8 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "yg-digital-store-demo",
+  "name": "yg-digital-store",
   "compatibility_date": "2026-09-12",
   "assets": {
-    "directory": ".",
-    "exclude": [
-      "README.md",
-      "package.json",
-      "package-lock.json",
-      "wrangler.jsonc",
-      ".git/**",
-      ".github/**"
-    ]
+    "directory": "./public"
   }
 }
